@@ -1,8 +1,7 @@
 package in.coderarmy.githubActionDemo;
 
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
 
 class HelloControllerTest {
 
@@ -14,7 +13,7 @@ class HelloControllerTest {
         String result = controller.hello();
 
         assertEquals(
-                "Hello from Coder Army! Welcome back. How are You?",
+                "Hello from Coder Army! Welcome back. How are You? shubham",
                 result
         );
     }
